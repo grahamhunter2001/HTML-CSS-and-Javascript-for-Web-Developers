@@ -16,7 +16,9 @@ table {
 	width: 90%;
 	border-spacing: 0px;
 	border: 1px solid black;
+	border-radius:20px;
 	margin-bottom:10px;
+	background-color: gray;
 }
 
 tr {
@@ -24,7 +26,6 @@ tr {
 }
 
 td {
-	background-color: gray;
 	width: 100%;
 }
 
@@ -34,6 +35,7 @@ td.dish_heading {
 	background-color: red;
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
+	border-radius:20px;
 }
 
 p {
@@ -120,14 +122,18 @@ p {
 	margin-left: auto;
 }
 
-.col-md-6:nth-child(even){
-	float:left;
+div.col-md-6:nth-child(even) > table{
+	float:right;
 }
-.col-md-6:nth-child(odd){
-	float: right;
+div.col-md-6:nth-child(odd) > table{
+	float: left;
 }
 
 .col-md-6:last-of-type {
+	width: 100%;
+}
+
+div.col-md-6:last-of-type > table{
 	width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
