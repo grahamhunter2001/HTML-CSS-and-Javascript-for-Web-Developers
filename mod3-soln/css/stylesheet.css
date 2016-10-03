@@ -1,0 +1,58 @@
+h1 {
+	width: 90%;
+	padding: 15px;
+	text-align: center;
+}
+
+h2, p {
+	background-color: gray;
+	padding: 10px;
+	margin-bottom:0px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+.container-fluid {
+	background-color: grey;
+}
+
+.container-fluid .navbar-brand {
+	color: black;
+}
+
+#collapsable-nav {
+	border:0px;
+}
+#nav-list {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#nav-list a {
+	color: black;
+	text-align:center;
+	background-color: white;
+	border: solid 1px black;
+}
+
+
+.col-md-12 {
+	width:90%;
+} 
+.col-sm-12 {
+	
+}
+.col-xs-12 {
+	
+}
